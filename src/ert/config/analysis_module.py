@@ -8,17 +8,6 @@ from typing_extensions import Annotated, Literal
 logger = logging.getLogger(__name__)
 
 
-if TYPE_CHECKING:
-
-    class VariableInfo(TypedDict):
-        type: Union[Type[float], Type[int]]
-        min: float
-        value: Union[float, int]
-        max: float
-        step: float
-        labelname: str
-
-
 DEFAULT_IES_MAX_STEPLENGTH = 0.60
 DEFAULT_IES_MIN_STEPLENGTH = 0.30
 DEFAULT_IES_DEC_STEPLENGTH = 2.50
