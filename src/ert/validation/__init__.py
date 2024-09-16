@@ -6,6 +6,7 @@ from .proper_name_argument import ExperimentValidation, ProperNameArgument
 from .proper_name_format_argument import ProperNameFormatArgument
 from .range_string_argument import RangeStringArgument
 from .rangestring import mask_to_rangestring, rangestring_to_list, rangestring_to_mask
+from .string_definition import StringDefinition
 from .validation_status import ValidationStatus
 
 __all__ = [
@@ -17,6 +18,7 @@ __all__ = [
     "ProperNameArgument",
     "ProperNameFormatArgument",
     "RangeStringArgument",
+    "StringDefinition",
     "ValidationStatus",
     "mask_to_rangestring",
     "rangestring_to_list",
